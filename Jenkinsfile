@@ -19,7 +19,7 @@ pipeline {
                 sudo /home/malinish/miniconda3 init
 
                 # TODO Complete the command to run pytest
-                sudo /home/malinish/miniconda3 run -n mlip pytest
+                sudo /home/malinish/miniconda3 run -n mlip python -m pytest
 
                 echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
